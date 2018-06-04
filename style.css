@@ -1,0 +1,48 @@
+/*How to height 100% Layout, ref : https://mulder21c.github.io*/
+*{margin:0;padding:0}
+html,body{height:100%}
+body{display:table; border-collapse: collapse;width:100%}
+#header,#footer{display:table-row;width:100%;height:1px}
+#container{display:table-row;width:100%;height:100%}
+
+
+body{background-image: url(images/bg.png); color: aliceblue}
+
+#header{border-bottom: 1px solid rgb(108, 108, 108); height: 60px;}
+#footer{border-top: 1px solid  rgb(108, 108, 108); height: 60px;}
+
+#header h1{
+    font-size: 1.5em;
+}
+
+#menu_left{
+    margin-left: 150px;
+    width: calc(100% - 450px);
+    float: left;
+    height: 60px;
+    display:flex;
+    align-items: center;
+   /* justify-content: center; */ /*Horizontal center*/
+}
+
+#menu_right{
+    width: 300px;
+    float: left;
+    height: 60px;
+    display:flex;
+    align-items: center;
+}
+
+
+.menu_item{
+    width: 100px;
+    float: left;
+}
+
+
+#menu_text a:link { color: white; text-decoration: none;}
+#menu_text a:visited{ color: white; text-decoration: none;}
+
+
+
+

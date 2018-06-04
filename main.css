@@ -1,0 +1,20 @@
+#post{
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 30px;
+    
+}
+
+#post h2{
+    float: left;
+}
+
+#post a:visited{ color: black; text-decoration: none;}
+#post a:link{ color: black; text-decoration: none;}
+
+#date{
+    text-align: right;
+}

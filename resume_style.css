@@ -1,0 +1,49 @@
+#article{
+    width: 800px;
+    margin: 10px auto;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+#article_header{
+    background-image: url(images/header-bg.png);
+    height: 350px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#section{
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 10px;
+}
+
+#section ul{
+    padding-top: 5px;
+}
+
+#section li{
+    color: black;
+    list-style: none;
+    border-left: 5px solid #ddd;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+#section li:hover{
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+#article_footer{
+    background-color: #eee; 
+    color: #999;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+}
+
+
